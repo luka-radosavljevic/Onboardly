@@ -1,0 +1,43 @@
+/* 1. Design Tokens */
+:root {
+  --color-text: #1e293b;
+  --color-bg: #ffffff;
+  --color-accent: #2f6db5;
+  --space: 1rem;
+  --radius: 0.5rem;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* 2. Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 3. Basis */
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  line-height: 1.5;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 4. Fokus sichtbar halten */
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* 5. Layout-Hilfe */
+.container {
+  width: min(100% - 2rem, 70rem);
+  margin-inline: auto;
+}
