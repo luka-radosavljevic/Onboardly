@@ -1,2 +1,2 @@
 # Onboardly
-Onborading-Process made easy
+Onboarding-Process made easy
