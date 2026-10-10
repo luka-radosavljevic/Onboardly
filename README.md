@@ -1,5 +1,7 @@
 # Onboardly
 
+![Onboardly](./screenshots/onboardly.png)
+
 Onboarding-Process made easy
 
 Onborading-Process made easy
