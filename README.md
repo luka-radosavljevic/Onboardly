@@ -44,7 +44,7 @@ Geplant sind:
 
 ### Aufgabenübersicht
 
-![Onboardly Dashboard](./screenshots/tasks.png)
+![Onboardly Tasks](./screenshots/tasks.png)
 
 ### Profilansicht
 
@@ -52,13 +52,17 @@ Geplant sind:
 
 ### Einstellungen
 
-![Onboardly Dashboard](./screenshots/settings.png)
+![Onboardly Settings](./screenshots/settings.png)
 
 ### Mobile Ansicht
 
-![Onboardly Dashboard](./screenshots/mobile_dashboard.png)
+![Onboardly Mobile Dashboard](./screenshots/mobile_dashboard.png)
 
-![Onboardly Dashboard](./screenshots/mobile_profile.png)
+![Onboardly Mobile Dashboard](./screenshots/mobile_tasks.png)
+
+![Onboardly Mobile Profile](./screenshots/mobile_profile.png)
+
+![Onboardly Mobile Profile](./screenshots/mobile_settings.png)
 
 ## Live-Demo
 
