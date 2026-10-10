@@ -8,8 +8,7 @@
 
     <title>Onboardly | Dashboard</title>
 
-    <link rel="stylesheet" href="styles.css">
-    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -18,12 +17,12 @@
 <aside> 
     <h2 class="logo"> Onboardly</h2>
 
-<nav class="dashboard-navigation"> 
+<nav class="dashboard-navigation" aria-label="Hauptnavigation"> 
 <ul>
-<li class="nav-item"><a class="nav-link active" href="#dashboard">Dashboard</a></li>
-<li class="nav-item"><a class="nav-link" href="#aufgaben">Aufgaben</a></li>
-<li class="nav-item"><a class="nav-link" href="#mein-profil"> Mein Profil</a></li>
-<li class="nav-item"><a class="nav-link" href="#einstellungen">Einstellungen</a></li>
+<li class="nav-item"><a class="nav-link active" href="index.html">Dashboard</a></li>
+<li class="nav-item"><a class="nav-link" href="aufgaben.html">Aufgaben</a></li>
+<li class="nav-item"><a class="nav-link" href="profil.html"> Mein Profil</a></li>
+<li class="nav-item"><a class="nav-link" href="einstellungen.html">Einstellungen</a></li>
 </ul>
 </nav>
 
@@ -49,7 +48,10 @@
 
 </header>
 
-
+<section class="welcome-card"> 
+<h2> Willkommen im Team, Max! 👋</h2>
+<p> Dein Einstieg beginnt hier. Entdecke deine nächsten Schritte.</p>
+</section>
 
 
  <div class="dashboard-cards">   
@@ -64,7 +66,9 @@
 
 <div class="tasks-card"> 
 <h2>Meine Aufgaben </h2>
-
+<a href="aufgaben.html" class="tasks-more-link">
+    Alle Aufgaben ansehen →
+</a>
  <ul>
     <li> <label for="task-marker-personal">
     <input id="task-marker-personal" type="checkbox" checked><span>Personalbogen ausfüllen</span></label></li>
