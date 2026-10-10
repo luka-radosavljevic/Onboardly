@@ -62,6 +62,6 @@ Geplant sind:
 
 ![Onboardly Mobile Profile](./screenshots/mobile_settings.png)
 
-## Live-Demo
+## Live-Demo sehen
 
 🌐 [Onboardly live ansehen](https://luka-radosavljevic.github.io/Onboardly/)
