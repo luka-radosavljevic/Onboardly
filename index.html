@@ -8,12 +8,90 @@
 
     <title>Onboardly | Dashboard</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="./script.js" defer></script>
 </head>
 
 <body>
 
+<div class="app-container">
+<aside> 
+    <h2 class="logo"> Onboardly</h2>
+
+<nav class="dashboard-navigation"> 
+<ul>
+<li class="nav-item"><a class="nav-link active" href="#dashboard">Dashboard</a></li>
+<li class="nav-item"><a class="nav-link" href="#aufgaben">Aufgaben</a></li>
+<li class="nav-item"><a class="nav-link" href="#mein-profil"> Mein Profil</a></li>
+<li class="nav-item"><a class="nav-link" href="#einstellungen">Einstellungen</a></li>
+</ul>
+</nav>
+
+
+</aside>
+<main> 
+
+
+<header class="dashboard-header"> 
+
+<div class="header-left">
+    <h1>Dashboard</h1>
+    <p class="hello-text"> Willkommen zurück! Hier ist dein Onboarding-Überblick.</p>
+
+</div>
+
+<div class="header-right">
+<span class="user-avatar"> MM </span>
+<p class="user-name"> Max Mustermann</p>
+</div>
+
+
+
+</header>
+
+
+
+
+ <div class="dashboard-cards">   
+<div class="progress-card"> 
+<h2>Mein Onboarding-Fortschritt</h2>
+<p class="progress-value"> 65%</p>
+<p class="progress-description"> 13 von 20 Aufgaben erledigt</p>
+<div class="progress-bar"> 
+<div class="progress-fill"> </div>
+</div>
+</div>
+
+<div class="tasks-card"> 
+<h2>Meine Aufgaben </h2>
+
+ <ul>
+    <li> <label for="task-marker-personal">
+    <input id="task-marker-personal" type="checkbox" checked><span>Personalbogen ausfüllen</span></label></li>
+
+
+   <li> <label for="task-marker-it"> <input id="task-marker-it" type="checkbox"><span>IT-Einweisung absolvieren </span></label></li>
+
+<li> <label for="task-marker-team"> <input id="task-marker-team" type="checkbox"><span>Team kennenlernen</span></label></li>
+
+</ul>
+</div>
+</div>
+
+<section class="appointments-card"> 
+<h2>Anstehende Termine </h2>
+<article> <p class="appointment-title">IT-Einweisung</p>
+    <p class="appointment-date">15. Oktober 2026</p></article>
+<article> <p class="appointment-title">Team-Kennenlernen</p>
+    <p class="appointment-date">18. Oktober 2026</p></article>
+
+
+</section>
+
+
+
+
+</main>
 
 
 
@@ -38,7 +116,5 @@
 
 
 
-
-
-
+</div>
 </body>
