@@ -59,4 +59,7 @@ Geplant sind:
 ![Onboardly Dashboard](./screenshots/mobile_dashboard.png)
 
 ![Onboardly Dashboard](./screenshots/mobile_profile.png)
->>>>>>> fdfb919 (feat: add onboarding pages and responsive layouts)
+
+## Live-Demo
+
+🌐 [Onboardly live ansehen](https://luka-radosavljevic.github.io/Onboardly/)
