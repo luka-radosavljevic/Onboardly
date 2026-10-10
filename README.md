@@ -2,10 +2,6 @@
 
 ![Onboardly](./screenshots/onboardly.png)
 
-Onboarding-Process made easy
-
-Onborading-Process made easy
-
 ## Über das Projekt
 
 Onboardly ist ein fiktives Onboarding-Dashboard,
